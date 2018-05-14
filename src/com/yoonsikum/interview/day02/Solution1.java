@@ -45,11 +45,7 @@ public class Solution1 {
             }
         }
 
-        if (stack.isEmpty()) {
-            return true;
-        } else {
-            return false;
-        }
+        return stack.isEmpty();
     }
 
 
