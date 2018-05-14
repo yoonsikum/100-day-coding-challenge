@@ -23,7 +23,7 @@ public class Solution2 {
         map.put(nums[0], 0);
 
 
-        for (int i = 1; i < length - 1; i++) {
+        for (int i = 1; i < length; i++) {
 
             map.put(nums[i], i);
 
@@ -45,9 +45,11 @@ public class Solution2 {
 
         Solution2 s = new Solution2();
 
-        int[] nums = new int[] {11, 15, 2, 1, 5, 4, 7};
 
-        int[] twoSum = s.twoSum(nums, 9);
+
+        int[] nums = new int[] {3,2,4};
+
+        int[] twoSum = s.twoSum(nums, 6);
 
         System.out.println(Arrays.toString(twoSum));
 
